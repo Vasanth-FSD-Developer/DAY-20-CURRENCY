@@ -1,0 +1,74 @@
+body{
+    background-image: url("https://anthropocenemagazine.org/wp-content/uploads/2020/02/falling-bills.gif");
+    background-size: 100%;
+    font-family: 'Times New Roman', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 420px;
+    height: 380px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: white;
+    border: 3px solid black;
+    
+}
+.container .total{
+    display: flex;
+    width: 100%;
+}
+.total div{
+    width: 100%;
+}
+select{
+    width: 95%;
+    height: 35px;
+    font-size: 1.2em;
+    cursor: pointer;
+    background-color: rgb(81, 81, 255);
+    outline: none;
+    color: white;
+    margin: 0.2em 0;
+    padding: 0 1em;
+    border-radius: 10px;
+    border: none;
+    
+
+}
+input{
+width: 93%;
+height: 35px;
+font-size: 1em;
+margin-top: 20px;
+
+border-radius: 10px;
+border: none;
+background-color: rgb(104, 254, 254);
+outline: none;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    
+}
+
+button{
+    width: 50%;
+    height: 35px;
+    border: none;
+    border-radius: 10px;
+    margin: 30px 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    background-color: rgb(127, 121, 121);
+    color: white;
+    cursor: pointer;
+}
